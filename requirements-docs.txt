@@ -125,7 +125,7 @@ configobj==5.0.6
     # via
     #   -r requirements-tests.txt
     #   certbot
-coverage==6.4.4
+coverage==7.0.4
     # via -r requirements-tests.txt
 cryptography==38.0.1
     # via
@@ -579,7 +579,6 @@ tabulate==0.8.10
 tomli==2.0.1
     # via
     #   -r requirements-tests.txt
-    #   black
     #   pytest
 twofish==0.3.0
     # via pyjks
