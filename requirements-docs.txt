@@ -229,6 +229,10 @@ graphql-core==3.2.0
     # via
     #   -r requirements-tests.txt
     #   moto
+greenlet==2.0.1
+    # via
+    #   -r requirements-tests.txt
+    #   sqlalchemy
 gunicorn==20.1.0
     # via -r requirements-docs.in
 hvac==1.0.2
@@ -556,7 +560,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-sqlalchemy==1.3.24
+sqlalchemy==1.4.46
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -579,7 +583,6 @@ tabulate==0.8.10
 tomli==2.0.1
     # via
     #   -r requirements-tests.txt
-    #   black
     #   pytest
 twofish==0.3.0
     # via pyjks
