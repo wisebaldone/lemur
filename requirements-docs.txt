@@ -169,7 +169,7 @@ ecdsa==0.17.0
     #   sshpubkeys
 factory-boy==3.2.1
     # via -r requirements-tests.txt
-faker==15.0.0
+faker==16.4.0
     # via
     #   -r requirements-tests.txt
     #   factory-boy
@@ -579,7 +579,6 @@ tabulate==0.8.10
 tomli==2.0.1
     # via
     #   -r requirements-tests.txt
-    #   black
     #   pytest
 twofish==0.3.0
     # via pyjks
