@@ -80,7 +80,7 @@ faker==15.0.0
     # via
     #   -r requirements-tests.in
     #   factory-boy
-fakeredis==1.9.1
+fakeredis==2.5.0
     # via -r requirements-tests.in
 flask==1.1.2
     # via
@@ -259,7 +259,6 @@ six==1.16.0
     #   cfn-lint
     #   configobj
     #   ecdsa
-    #   fakeredis
     #   jsonschema
     #   junit-xml
     #   python-dateutil
@@ -279,9 +278,7 @@ sshpubkeys==3.3.1
 stevedore==3.5.0
     # via bandit
 tomli==2.0.1
-    # via
-    #   black
-    #   pytest
+    # via pytest
 urllib3==1.26.9
     # via
     #   botocore
