@@ -59,13 +59,13 @@ blinker==1.4
     # via
     #   flask-mail
     #   flask-principal
-boto3==1.24.70
+boto3==1.26.69
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
     #   aws-sam-translator
     #   moto
-botocore==1.27.80
+botocore==1.29.69
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
@@ -579,7 +579,6 @@ tabulate==0.8.10
 tomli==2.0.1
     # via
     #   -r requirements-tests.txt
-    #   black
     #   pytest
 twofish==0.3.0
     # via pyjks

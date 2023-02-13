@@ -24,11 +24,11 @@ bandit==1.7.4
     # via -r requirements-tests.in
 black==22.8.0
     # via -r requirements-tests.in
-boto3==1.24.70
+boto3==1.26.69
     # via
     #   aws-sam-translator
     #   moto
-botocore==1.27.80
+botocore==1.29.69
     # via
     #   aws-xray-sdk
     #   boto3
@@ -279,9 +279,7 @@ sshpubkeys==3.3.1
 stevedore==3.5.0
     # via bandit
 tomli==2.0.1
-    # via
-    #   black
-    #   pytest
+    # via pytest
 urllib3==1.26.9
     # via
     #   botocore
