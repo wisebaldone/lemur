@@ -315,6 +315,7 @@ markupsafe==2.1.1
     #   jinja2
     #   mako
     #   moto
+    #   werkzeug
 marshmallow==2.21.0
     # via
     #   -r requirements-docs.in
@@ -579,7 +580,6 @@ tabulate==0.8.10
 tomli==2.0.1
     # via
     #   -r requirements-tests.txt
-    #   black
     #   pytest
 twofish==0.3.0
     # via pyjks
@@ -602,7 +602,7 @@ websocket-client==1.3.1
     # via
     #   -r requirements-tests.txt
     #   docker
-werkzeug==2.0.3
+werkzeug==2.2.3
     # via
     #   -r requirements-docs.in
     #   -r requirements-tests.txt
